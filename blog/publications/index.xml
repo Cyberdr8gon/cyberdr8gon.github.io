@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publications on Sam Bateman&#39;s Personal Website</title>
+    <link>https://bateman.io/blog/publications/</link>
+    <description>Recent content in publications on Sam Bateman&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Sun, 25 Oct 2020 00:06:59 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/blog/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IROS 2020 - Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps</title>
+      <link>https://bateman.io/project/clique-persistance-filter/</link>
+      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/project/clique-persistance-filter/</guid>
+      <description>Arxiv Paper</description>
+    </item>
+    
+  </channel>
+</rss>

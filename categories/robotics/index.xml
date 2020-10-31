@@ -1,30 +1,27 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>robotics on Sam Bateman&#39;s Personal Website</title>
     <link>https://bateman.io/categories/robotics/</link>
     <description>Recent content in robotics on Sam Bateman&#39;s Personal Website</description>
-    <ttl>1440</ttl>
-    <generator>Hugo 0.68.3</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Apr 2020 21:01:04 UT</lastBuildDate>
-    <atom:link href="https://bateman.io/categories/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Tue, 24 Dec 2019 23:10:41 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/categories/robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Sidewalk Following Robot</title>
       <link>https://bateman.io/project/sidewalk_robot/</link>
-      <pubDate>Wed, 25 Dec 2019 06:10:41 UT</pubDate>
-      <dc:creator>Sam Bateman</dc:creator>
+      <pubDate>Tue, 24 Dec 2019 23:10:41 -0700</pubDate>
+      
       <guid>https://bateman.io/project/sidewalk_robot/</guid>
       <description>This project is a robot which, for extended distances, can follow and map sidewalk networks in a global, UTM coordinate frame while avoiding bikes, pedestrians and small ground vehicles.
 Our platform is a Clearpath Jackal, again, utilizing a Nvidia Xavier for perception, 2x Intel Realsense D435 which are frame synced and a Intel NUC for control and planning.
 We use Deeplab v3 with a Mobile Net backbone trained on Cityscapes for real time segmentation (25-30fps) running with 16bit floating point mode using TensorRT while doing RGB-D ORB_SLAM2 or DSO depending on the sequence for mapping and pose estimates.</description>
-      <category domain="https://bateman.io/categories/robotics">Robotics</category>
-      <content:encoded><![CDATA[   This project is a robot which, for extended distances, can follow and map sidewalk networks in a global, UTM coordinate frame while avoiding bikes, pedestrians and small ground vehicles.
-Our platform is a Clearpath Jackal, again, utilizing a Nvidia Xavier for perception, 2x Intel Realsense D435 which are frame synced and a Intel NUC for control and planning.
-We use Deeplab v3 with a Mobile Net backbone trained on Cityscapes for real time segmentation (25-30fps) running with 16bit floating point mode using TensorRT while doing RGB-D ORB_SLAM2 or DSO depending on the sequence for mapping and pose estimates. There is a strong prior on being on a road from the dataset, so we have to use both road and sidewalk masks to correctly segment the sidewalk (plus CU Boulder sidewalks are very strange compared to the average sidewalk/road). We then do morphological closing and erosion on the resulting segmentation of the sidewalk while dropping any of the mask that is too far away on the horizon to be relevant in the near term feedback controller. We then take a centroid of the resulting sidewalk mask, which we feed into a Kalman filter to smooth the output of the segmentation and deal with frames where we detect no segmentations or just very noisy segmentations. All of this is needed because the network is extremely unreliable on campus because of its expectation of a scene to be viewed from a road and a higher vantage point, neither of which we are doing. From here, we do a simple feedback controller on the heading provided by filtering over our SLAM estimate and our INS fix to change heading to center the centroid in the image to effectively follow the &amp;ldquo;gap&amp;rdquo; of the high intensity region of the segmentation surrounded by nontraversable areas. This ends up being useful because humans, bikes and cars are also not traversable, and thus, the robot will actively avoid these other objects as a side effect of this design.
-This functions quite well given optimal lighting conditions, however it struggles to segment all traversable area effectively when long shadows (common in the winter in afternoon in Colorado) are drawn across the sidewalk, causing it to incorrectly change direction and sometimes lose the sidewalk completely. It also struggles with sun glare which is not present in the dataset, causing it to lose its segmentation, and further its heading. The kalman filter carries it through some of these, but it can only do so well. This approach also struggles with junctions, because it assumes this is just a very large sidewalk, to explore these branching paths, we would have to implement a control strategy using our map.
-This project is for CU Boulders CSCI 7000: Autonomous Vehicle Challange with Professor Heckman in conjunction with the ARPG Lab.
-]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

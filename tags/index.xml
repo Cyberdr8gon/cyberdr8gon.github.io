@@ -1,85 +1,124 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Tags on Sam Bateman&#39;s Personal Website</title>
     <link>https://bateman.io/tags/</link>
     <description>Recent content in Tags on Sam Bateman&#39;s Personal Website</description>
-    <ttl>1440</ttl>
-    <generator>Hugo 0.68.3</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Apr 2020 21:01:04 UT</lastBuildDate>
-    <atom:link href="https://bateman.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Sun, 25 Oct 2020 00:06:59 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>conferences</title>
+      <link>https://bateman.io/blog/conferences/</link>
+      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IROS</title>
+      <link>https://bateman.io/blog/iros/</link>
+      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/iros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>https://bateman.io/blog/publications/</link>
+      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://bateman.io/blog/robotics/</link>
+      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/robotics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>math</title>
-      <link>https://bateman.io/tags/math/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/math/</guid>
+      <link>https://bateman.io/blog/math/</link>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/math/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>notebook</title>
-      <link>https://bateman.io/tags/notebook/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/notebook/</guid>
+      <link>https://bateman.io/blog/notebook/</link>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/notebook/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>numerics</title>
-      <link>https://bateman.io/tags/numerics/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/numerics/</guid>
+      <link>https://bateman.io/blog/numerics/</link>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/numerics/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>physics</title>
-      <link>https://bateman.io/tags/physics/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/physics/</guid>
+      <link>https://bateman.io/blog/physics/</link>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/physics/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>deep learning</title>
-      <link>https://bateman.io/tags/deep-learning/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/deep-learning/</guid>
+      <link>https://bateman.io/blog/deep-learning/</link>
+      <pubDate>Tue, 24 Dec 2019 23:10:41 -0700</pubDate>
+      
+      <guid>https://bateman.io/blog/deep-learning/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    <item>
-      <title>robotics</title>
-      <link>https://bateman.io/tags/robotics/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/robotics/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
+    
     <item>
       <title>emacs</title>
-      <link>https://bateman.io/tags/emacs/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/emacs/</guid>
+      <link>https://bateman.io/blog/emacs/</link>
+      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
+      
+      <guid>https://bateman.io/blog/emacs/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>email</title>
-      <link>https://bateman.io/tags/email/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/email/</guid>
+      <link>https://bateman.io/blog/email/</link>
+      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
+      
+      <guid>https://bateman.io/blog/email/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>gnus</title>
-      <link>https://bateman.io/tags/gnus/</link>
-      <dc:creator>Sam Bateman</dc:creator>
-      <guid>https://bateman.io/tags/gnus/</guid>
+      <link>https://bateman.io/blog/gnus/</link>
+      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
+      
+      <guid>https://bateman.io/blog/gnus/</guid>
       <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

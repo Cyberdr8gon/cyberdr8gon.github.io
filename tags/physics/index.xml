@@ -1,28 +1,26 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>physics on Sam Bateman&#39;s Personal Website</title>
     <link>https://bateman.io/tags/physics/</link>
     <description>Recent content in physics on Sam Bateman&#39;s Personal Website</description>
-    <ttl>1440</ttl>
-    <generator>Hugo 0.68.3</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Apr 2020 21:01:04 UT</lastBuildDate>
-    <atom:link href="https://bateman.io/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Dec 2019 00:06:59 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Exploration of Numerical Solutions to 1D Schrodinger Equation</title>
       <link>https://bateman.io/project/1d-schrodinger-equation-sim/</link>
-      <pubDate>Wed, 25 Dec 2019 07:06:59 UT</pubDate>
-      <dc:creator>Sam Bateman</dc:creator>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
       <guid>https://bateman.io/project/1d-schrodinger-equation-sim/</guid>
       <description>Numerical Methods for the Schrodinger Equation Notebook
 In this project, we explored numerical solutions to the 1D Schrodinger Equation. The vast majority of the content of this project is in the notebook, so I encourage you to check it out.
 One intresting note, is that the approach for the arbitrary potential of the Time Dependent Schrodinger equation scales to higher dimensions very cleaning by just using the higher dimensional Fourier Transform (seperate integral for each direction).</description>
-      <category domain="https://bateman.io/categories/math">Math</category>
-      <content:encoded><![CDATA[Numerical Methods for the Schrodinger Equation Notebook
-In this project, we explored numerical solutions to the 1D Schrodinger Equation. The vast majority of the content of this project is in the notebook, so I encourage you to check it out.
-One intresting note, is that the approach for the arbitrary potential of the Time Dependent Schrodinger equation scales to higher dimensions very cleaning by just using the higher dimensional Fourier Transform (seperate integral for each direction). However, maintaining numerical stability in this case will usually require the use of Strang Splitting, named after the well known Gilbert Strang, who has a fantastic online course in Linear Algebra which I highly recommend to anyone intrested!
-]]></content:encoded>
     </item>
+    
   </channel>
 </rss>

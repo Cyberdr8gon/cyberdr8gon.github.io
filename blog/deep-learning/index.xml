@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deep learning on Sam Bateman&#39;s Personal Website</title>
+    <link>https://bateman.io/blog/deep-learning/</link>
+    <description>Recent content in deep learning on Sam Bateman&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Tue, 24 Dec 2019 23:10:41 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/blog/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sidewalk Following Robot</title>
+      <link>https://bateman.io/project/sidewalk_robot/</link>
+      <pubDate>Tue, 24 Dec 2019 23:10:41 -0700</pubDate>
+      
+      <guid>https://bateman.io/project/sidewalk_robot/</guid>
+      <description>This project is a robot which, for extended distances, can follow and map sidewalk networks in a global, UTM coordinate frame while avoiding bikes, pedestrians and small ground vehicles.
+Our platform is a Clearpath Jackal, again, utilizing a Nvidia Xavier for perception, 2x Intel Realsense D435 which are frame synced and a Intel NUC for control and planning.
+We use Deeplab v3 with a Mobile Net backbone trained on Cityscapes for real time segmentation (25-30fps) running with 16bit floating point mode using TensorRT while doing RGB-D ORB_SLAM2 or DSO depending on the sequence for mapping and pose estimates.</description>
+    </item>
+    
+  </channel>
+</rss>

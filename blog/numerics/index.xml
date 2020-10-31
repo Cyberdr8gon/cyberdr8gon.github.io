@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numerics on Sam Bateman&#39;s Personal Website</title>
+    <link>https://bateman.io/blog/numerics/</link>
+    <description>Recent content in numerics on Sam Bateman&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Wed, 25 Dec 2019 00:06:59 -0700</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/blog/numerics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploration of Numerical Solutions to 1D Schrodinger Equation</title>
+      <link>https://bateman.io/project/1d-schrodinger-equation-sim/</link>
+      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
+      
+      <guid>https://bateman.io/project/1d-schrodinger-equation-sim/</guid>
+      <description>Numerical Methods for the Schrodinger Equation Notebook
+In this project, we explored numerical solutions to the 1D Schrodinger Equation. The vast majority of the content of this project is in the notebook, so I encourage you to check it out.
+One intresting note, is that the approach for the arbitrary potential of the Time Dependent Schrodinger equation scales to higher dimensions very cleaning by just using the higher dimensional Fourier Transform (seperate integral for each direction).</description>
+    </item>
+    
+  </channel>
+</rss>

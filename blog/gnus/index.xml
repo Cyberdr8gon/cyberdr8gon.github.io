@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gnus on Sam Bateman&#39;s Personal Website</title>
+    <link>https://bateman.io/blog/gnus/</link>
+    <description>Recent content in gnus on Sam Bateman&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
+    <lastBuildDate>Mon, 29 Oct 2018 23:39:13 -0600</lastBuildDate>
+    
+	<atom:link href="https://bateman.io/blog/gnus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started With GNUs</title>
+      <link>https://bateman.io/post/getting-started-with-gnus/</link>
+      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
+      
+      <guid>https://bateman.io/post/getting-started-with-gnus/</guid>
+      <description>Emacs is quite the beast. It really isn&amp;rsquo;t an editor so much as a operating system, and a pretty good one. It brings the promise of lisp machines onto every modern operating system and makes it quite easy to build a fantastic experience across systems.
+Obviously, one of the more integral functions of such an operating system is email, and here, Emacs is a embarassment of riches. There are many avalible email clients in Emacs.</description>
+    </item>
+    
+  </channel>
+</rss>
