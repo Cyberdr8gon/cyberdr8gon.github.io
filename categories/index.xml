@@ -1,43 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
     <title>Categories on Sam Bateman&#39;s Personal Website</title>
     <link>https://bateman.io/categories/</link>
     <description>Recent content in Categories on Sam Bateman&#39;s Personal Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <ttl>1440</ttl>
+    <generator>Hugo 0.68.3</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
-    <lastBuildDate>Sun, 25 Oct 2020 00:06:59 -0700</lastBuildDate>
-    
-	<atom:link href="https://bateman.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>math</title>
-      <link>https://bateman.io/categories/math/</link>
-      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
-      
-      <guid>https://bateman.io/categories/math/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 01 Nov 2020 03:15:59 UT</lastBuildDate>
+    <atom:link href="https://bateman.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>robotics</title>
       <link>https://bateman.io/categories/robotics/</link>
-      <pubDate>Tue, 24 Dec 2019 23:10:41 -0700</pubDate>
-      
+      <dc:creator>Sam Bateman</dc:creator>
       <guid>https://bateman.io/categories/robotics/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
+    <item>
+      <title>math</title>
+      <link>https://bateman.io/categories/math/</link>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/categories/math/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>emacs</title>
       <link>https://bateman.io/categories/emacs/</link>
-      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
-      
+      <dc:creator>Sam Bateman</dc:creator>
       <guid>https://bateman.io/categories/emacs/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

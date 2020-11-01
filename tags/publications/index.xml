@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>publications on Sam Bateman&#39;s Personal Website</title>
+    <link>https://bateman.io/tags/publications/</link>
+    <description>Recent content in publications on Sam Bateman&#39;s Personal Website</description>
+    <ttl>1440</ttl>
+    <generator>Hugo 0.68.3</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 01 Nov 2020 03:15:59 UT</lastBuildDate>
+    <atom:link href="https://bateman.io/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IROS 2020 - Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps</title>
+      <link>https://bateman.io/project/joint-clique-filter/</link>
+      <pubDate>Sun, 01 Nov 2020 02:34:04 UT</pubDate>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/project/joint-clique-filter/</guid>
+      <description>In this paper, we expanded on the work of David Rosen and Fernando Nobre, developing a new method for landmark persistence change detection well suited for the challenges of complicated 3D worlds which wasn&amp;rsquo;t previously addressed by prior work. Our approach allows for the use of semantic priors on inclusing of features into a single semantic set, allowing for what amounts to joint object persistence estimation in the real world without explicitly tracking any objects.</description>
+      <category domain="https://bateman.io/categories/robotics">Robotics</category>
+      <content:encoded><![CDATA[   In this paper, we expanded on the work of David Rosen and Fernando Nobre, developing a new method for landmark persistence change detection well suited for the challenges of complicated 3D worlds which wasn&amp;rsquo;t previously addressed by prior work. Our approach allows for the use of semantic priors on inclusing of features into a single semantic set, allowing for what amounts to joint object persistence estimation in the real world without explicitly tracking any objects. The idea is that this could be used alone or in tandem with a traditional perception pipeline to allow feature based SLAM systems to operate long term deployments in a number of dynamic and semi-static environments which currently cause drift or failure of the current state of the art.
+For the full paper we submitted to IROS and all the gory details, see our Arxiv Paper.
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

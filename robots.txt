@@ -1,2 +1,1 @@
-User-Agent: *
-Sitemap: https://bateman.io/sitemap.xml
+User-agent: *

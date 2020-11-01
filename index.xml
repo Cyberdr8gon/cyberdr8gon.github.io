@@ -1,66 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>About Me on Sam Bateman&#39;s Personal Website</title>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <title>Sam Bateman&#39;s Personal Website</title>
     <link>https://bateman.io/</link>
-    <description>Recent content in About Me on Sam Bateman&#39;s Personal Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Sam Bateman&#39;s Personal Website</description>
+    <ttl>1440</ttl>
+    <generator>Hugo 0.68.3</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2016-2020, Sam Bateman.</copyright>
-    <lastBuildDate>Wed, 25 Dec 2019 00:26:08 -0700</lastBuildDate>
-    
-	<atom:link href="https://bateman.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 01 Nov 2020 03:15:59 UT</lastBuildDate>
+    <atom:link href="https://bateman.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>IROS 2020 - Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps</title>
-      <link>https://bateman.io/project/clique-persistance-filter/</link>
-      <pubDate>Sun, 25 Oct 2020 00:06:59 -0700</pubDate>
-      
-      <guid>https://bateman.io/project/clique-persistance-filter/</guid>
-      <description>Arxiv Paper</description>
+      <title>Projects</title>
+      <link>https://bateman.io/project/</link>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/project/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
     <item>
       <title>About Me</title>
       <link>https://bateman.io/about/</link>
-      <pubDate>Wed, 25 Dec 2019 00:26:08 -0700</pubDate>
-      
+      <pubDate>Wed, 25 Dec 2019 07:26:08 UT</pubDate>
+      <dc:creator>Sam Bateman</dc:creator>
       <guid>https://bateman.io/about/</guid>
-      <description>I am a Undergrad Double Majoring in Computer Science and Applied Mathematics at CU Boulder. I am doing my thesis work in the Autonomous Robotics and Perception Group in the Department of Computer Science, focusing on the intersection of semantic understanding and Simultanious Localization and Mapping (SLAM). I also work in the Autonomous Vehicle Systems Laboratory in the Department of Aerospace Engineering primarily on the visualization of Basilisk, a high fidelity, high performance astrodynamics simulation framework in Python.</description>
+      <description>Hi, my name is Sam Bateman, and right now, I do robotics and mapping.
+I am a recent grad from the University of Colorado - Boulder, where I graduated with a B.S. in Computer Science and a B.S. in Applied Mathematics. I did my senior thesis work in the Autonomous Robotics and Perception Group in the Department of Computer Science, focusing on developing algorithms to enable a dynamic, semantic, Simultaneous Localization and Mapping (SLAM).</description>
+      <content:encoded><![CDATA[Hi, my name is Sam Bateman, and right now, I do robotics and mapping.
+I am a recent grad from the University of Colorado - Boulder, where I graduated with a B.S. in Computer Science and a B.S. in Applied Mathematics. I did my senior thesis work in the Autonomous Robotics and Perception Group in the Department of Computer Science, focusing on developing algorithms to enable a dynamic, semantic, Simultaneous Localization and Mapping (SLAM). I also worked in the Autonomous Vehicle Systems Laboratory in the Department of Aerospace Engineering primarily on the visualization for Basilisk, which is a high fidelity, high performance astrodynamics simulation framework in Python, while assisting in various research projects. I also had a couple internships, including a summer research internship at MIT Lincoln Labs.
+Today, I am lucky to work as a Software Engineer on the Autonomy - Localization and Mapping team at a autonomous local delivery startup in the Bay Area called Nuro with a number of brilliant engineers and researchers.
+ My primary research interests are in localization, mapping, perception, and machine learning. More specifically, I am interested in collaborative perception, sensor fusion, long-term autonomy, and bringing together geometric and learned methods to improve the state of the art. I also am known to be easily drawn into any interesting problem which can use a level of mathematical inclination. Feel free to check out my previous projects to get a sampling.
+ In my free time, I like reading, playing video games (specifically League of Legends and Counter Strike: Global Offensive right now) and spending time with my friends.
+Feel free to contact me at sam@bateman.io if you have any questions or inquiries.
+]]></content:encoded>
     </item>
-    
     <item>
-      <title>Exploration of Numerical Solutions to 1D Schrodinger Equation</title>
-      <link>https://bateman.io/project/1d-schrodinger-equation-sim/</link>
-      <pubDate>Wed, 25 Dec 2019 00:06:59 -0700</pubDate>
-      
-      <guid>https://bateman.io/project/1d-schrodinger-equation-sim/</guid>
-      <description>Numerical Methods for the Schrodinger Equation Notebook
-In this project, we explored numerical solutions to the 1D Schrodinger Equation. The vast majority of the content of this project is in the notebook, so I encourage you to check it out.
-One intresting note, is that the approach for the arbitrary potential of the Time Dependent Schrodinger equation scales to higher dimensions very cleaning by just using the higher dimensional Fourier Transform (seperate integral for each direction).</description>
+      <title>Posts</title>
+      <link>https://bateman.io/post/</link>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/post/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
-    
-    <item>
-      <title>Sidewalk Following Robot</title>
-      <link>https://bateman.io/project/sidewalk_robot/</link>
-      <pubDate>Tue, 24 Dec 2019 23:10:41 -0700</pubDate>
-      
-      <guid>https://bateman.io/project/sidewalk_robot/</guid>
-      <description>This project is a robot which, for extended distances, can follow and map sidewalk networks in a global, UTM coordinate frame while avoiding bikes, pedestrians and small ground vehicles.
-Our platform is a Clearpath Jackal, again, utilizing a Nvidia Xavier for perception, 2x Intel Realsense D435 which are frame synced and a Intel NUC for control and planning.
-We use Deeplab v3 with a Mobile Net backbone trained on Cityscapes for real time segmentation (25-30fps) running with 16bit floating point mode using TensorRT while doing RGB-D ORB_SLAM2 or DSO depending on the sequence for mapping and pose estimates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started With GNUs</title>
-      <link>https://bateman.io/post/getting-started-with-gnus/</link>
-      <pubDate>Mon, 29 Oct 2018 23:39:13 -0600</pubDate>
-      
-      <guid>https://bateman.io/post/getting-started-with-gnus/</guid>
-      <description>Emacs is quite the beast. It really isn&amp;rsquo;t an editor so much as a operating system, and a pretty good one. It brings the promise of lisp machines onto every modern operating system and makes it quite easy to build a fantastic experience across systems.
-Obviously, one of the more integral functions of such an operating system is email, and here, Emacs is a embarassment of riches. There are many avalible email clients in Emacs.</description>
-    </item>
-    
   </channel>
 </rss>
