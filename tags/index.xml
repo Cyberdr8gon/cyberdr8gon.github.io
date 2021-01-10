@@ -7,7 +7,7 @@
     <ttl>1440</ttl>
     <generator>Hugo 0.68.3</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Nov 2020 03:15:59 UT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 22:06:56 UT</lastBuildDate>
     <atom:link href="https://bateman.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>conferences</title>
@@ -38,6 +38,14 @@
       <link>https://bateman.io/tags/robotics/</link>
       <dc:creator>Sam Bateman</dc:creator>
       <guid>https://bateman.io/tags/robotics/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>thesis</title>
+      <link>https://bateman.io/tags/thesis/</link>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/tags/thesis/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

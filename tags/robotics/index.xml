@@ -7,7 +7,7 @@
     <ttl>1440</ttl>
     <generator>Hugo 0.68.3</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Nov 2020 03:15:59 UT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jan 2021 22:06:56 UT</lastBuildDate>
     <atom:link href="https://bateman.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IROS 2020 - Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps</title>
@@ -19,6 +19,18 @@
       <category domain="https://bateman.io/categories/robotics">Robotics</category>
       <content:encoded><![CDATA[   In this paper, we expanded on the work of David Rosen and Fernando Nobre, developing a new method for landmark persistence change detection well suited for the challenges of complicated 3D worlds which wasn&amp;rsquo;t previously addressed by prior work. Our approach allows for the use of semantic priors on inclusing of features into a single semantic set, allowing for what amounts to joint object persistence estimation in the real world without explicitly tracking any objects. The idea is that this could be used alone or in tandem with a traditional perception pipeline to allow feature based SLAM systems to operate long term deployments in a number of dynamic and semi-static environments which currently cause drift or failure of the current state of the art.
 For the full paper we submitted to IROS and all the gory details, see our Arxiv Paper.
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Undergrad Thesis - An Exploration of Algorithms Enabling a Semantics-Aware Class-Based Probablistic Dynamic SLAM</title>
+      <link>https://bateman.io/project/undergrad-thesis/</link>
+      <pubDate>Mon, 04 May 2020 21:39:21 UT</pubDate>
+      <dc:creator>Sam Bateman</dc:creator>
+      <guid>https://bateman.io/project/undergrad-thesis/</guid>
+      <description>This thesis describes the work that I performed persuant to recieving my undergraduate degree at CU Boulder. This thesis was advised by the exceptional Christoffer Heckman. In it, we explore utilizing a semantics aware clique-based persistence filter to handle non-static elements in a environment. Further, multi-agent tracking systems are reviewed and explored to provide semantic and panoptic segmentation of an environment to track persistance statistics of objects in a world online.</description>
+      <category domain="https://bateman.io/categories/robotics">Robotics</category>
+      <content:encoded><![CDATA[This thesis describes the work that I performed persuant to recieving my undergraduate degree at CU Boulder. This thesis was advised by the exceptional Christoffer Heckman. In it, we explore utilizing a semantics aware clique-based persistence filter to handle non-static elements in a environment. Further, multi-agent tracking systems are reviewed and explored to provide semantic and panoptic segmentation of an environment to track persistance statistics of objects in a world online. These are used with the language of Surivival Analysis to provide adaptive, high quality survival time priors to the persitence filter. Finally, usage of gaussian processes to estimate survival time prior distribution online is suggested using the devised framework, however, time restricted the exploration of the final goal of the paper.
+The full thesis can be found here.
 ]]></content:encoded>
     </item>
     <item>
